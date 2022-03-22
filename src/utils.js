@@ -50,10 +50,10 @@ const gregorianConfigs = {
   dateFormat: 'YYYY.MM.DD',
   monthYearFormat: 'YYYY MM',
   timeFormat: 'HH:mm',
-  hour: 'Hour',
-  minute: 'Minute',
-  timeSelect: 'Select',
-  timeClose: 'Close',
+  hour: '시',
+  minute: '분',
+  timeSelect: '고른',
+  timeClose: '닫기',
 };
 
 class utils {
