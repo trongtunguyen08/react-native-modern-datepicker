@@ -30,24 +30,24 @@ const jalaaliConfigs = {
   timeClose: 'بستن',
 };
 const gregorianConfigs = {
-  dayNames: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+  dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
   dayNamesShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
   monthNames: [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
+    '일월',
+    '이월',
+    '삼월',
+    '사월',
+    '오월',
+    '유월',
+    '칠월',
+    '팔월',
+    '구월',
+    '시월',
+    '십일월',
+    '십이월',
   ],
-  selectedFormat: 'YYYY/MM/DD',
-  dateFormat: 'YYYY/MM/DD',
+  selectedFormat: 'YYYY.MM.DD',
+  dateFormat: 'YYYY.MM.DD',
   monthYearFormat: 'YYYY MM',
   timeFormat: 'HH:mm',
   hour: 'Hour',
@@ -77,7 +77,7 @@ class utils {
 
   getFormated = (date, formatName = 'selectedFormat') => date.format(this.config[formatName]);
 
-  getFormatedDate = (date = new Date(), format = 'YYYY/MM/DD') => moment(date).format(format);
+  getFormatedDate = (date = new Date(), format = 'YYYY.MM.DD') => moment(date).format(format);
 
   getTime = (time) => this.getDate(time).format(this.config.timeFormat);
 
