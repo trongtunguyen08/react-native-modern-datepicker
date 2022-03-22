@@ -31,7 +31,7 @@ const jalaaliConfigs = {
 };
 const gregorianConfigs = {
   dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
-  dayNamesShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+  dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
   monthNames: [
     '일월',
     '이월',
