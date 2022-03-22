@@ -42,6 +42,7 @@ const styles = theme =>
     container: {
       flexDirection: 'column',
       flex: 1,
+      borderRadius: 10
     },
     daysName: {
       paddingBottom: 10,
